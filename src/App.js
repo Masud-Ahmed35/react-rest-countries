@@ -1,12 +1,18 @@
 
 import './App.css';
 import Countries from './components/Countries/Countries';
+import Footer from './components/Footer/Footer';
+import './components/Footer/Footer.css'
+import Header from './components/Header/Header';
+import './components/Header/Header.css'
 
 function App() {
   return (
     <div className="App">
       {/* <LoadCountries></LoadCountries> */}
+      <Header></Header>
       <Countries></Countries>
+      <Footer></Footer>
     </div>
   );
 }
