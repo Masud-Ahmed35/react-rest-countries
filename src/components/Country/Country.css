@@ -1,0 +1,13 @@
+.country {
+    margin: 20px;
+    padding: 20px;
+    background-color: darkkhaki;
+    border: 7px solid purple;
+    border-radius: 11px;
+    color: black;
+
+}
+
+.country img {
+    width: 150px;
+}
